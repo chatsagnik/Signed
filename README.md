@@ -4,9 +4,7 @@ Real Time Translation of Sign Language to English
 ## Setting Up the environment.
 * Set up an anaconda environment as `Python 3.5.6`, and activate this environment.
 * Use command prompt or anaconda prompt to install libraries by using `install_packages.txt` using `pip`.
-**Note:** Use command prompt or anaconda prompt to run `dependencies.py`. If this runs without any trouble we can now start running our code. This step is necessary because on a lot of systems tensorflow is not installed properly with `pip` installation on the first go. For my particular environment I used <br>
-```pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-2.0.0-cp35-cp35m-win_amd64.whl```<br>
-as specified in the Tensorflow website.
+**Note:** Use command prompt or anaconda prompt to run `dependencies.py`. If this runs without any trouble we can now start running our code. This step is necessary because on a lot of systems tensorflow is not installed properly with `pip` installation on the first go. For my particular environment I used ```pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-2.0.0-cp35-cp35m-win_amd64.whl``` as specified on the Tensorflow website.
 
 ## Creating your own custom dataset. 
 * Run `train.py` to create your own dataset. If the label of your dataset is `Ex`, the images are stored under `.\signs\train\Ex\`
