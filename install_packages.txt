@@ -1,0 +1,10 @@
+numpy
+scikit-learn
+tensorflow
+keras
+pandas
+opencv
+matplotlib
+time
+os
+pickle
