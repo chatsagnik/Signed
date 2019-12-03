@@ -1,5 +1,5 @@
 # Signed
-Real Time Translation of Sign Language to English
+Real Time Translation of Sign Language to English.
 
 ## Setting Up the environment.
 * Set up an anaconda environment as `Python 3.5.6`, and activate this environment.
