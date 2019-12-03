@@ -14,11 +14,10 @@ Real Time Translation of Sign Language to English
 * Input the Hand Sign Label you want the system to store, and input the no of training images. 
 * If the label of your dataset is `Ex`, the images are stored under `.\signs\train\Ex\`. Some example thresholded images are shown below.
 <br>
-![A](https://github.com/chatsagnik/Signed/blob/master/1.jpg)
-![B](https://github.com/chatsagnik/Signed/blob/master/12.jpg)
-![C](https://github.com/chatsagnik/Signed/blob/master/3.jpg)
-![D](https://github.com/chatsagnik/Signed/blob/master/36.jpg)
-![E](https://github.com/chatsagnik/Signed/blob/master/82.jpg)
+
+![Sign A](https://github.com/chatsagnik/Signed/blob/master/1.jpg) ![Sign B](https://github.com/chatsagnik/Signed/blob/master/12.jpg) 
+![Sign C](https://github.com/chatsagnik/Signed/blob/master/3.jpg) ![Sign D](https://github.com/chatsagnik/Signed/blob/master/36.jpg) 
+![Sign E](https://github.com/chatsagnik/Signed/blob/master/82.jpg)
 
 ## Predict hand-signs in real time.
 * Run `predict_hand_sign.py` to start predicting handsigns.
