@@ -9,11 +9,16 @@ Real Time Translation of Sign Language to English
 ## Creating your own custom dataset. 
 * Run `train.py` to create your own dataset. If the label of your dataset is `Ex`, the images are stored under `.\signs\train\Ex\`
 * When the Histogram screen pops up, cover the small green boxes with your palm completely and press `c`. Your palm should be white and the background should be black.
+![Histogram](https://github.com/chatsagnik/Signed/blob/master/Histogram.PNG)
 * Press `s` to save the histogram and stop recording.
-* Input the Hand Sign Label you want the system to store, and input the no of training images.
+* Input the Hand Sign Label you want the system to store, and input the no of training images. 
+![](https://github.com/chatsagnik/Signed/blob/master/36.jpg)
 
 ## Predict hand-signs in real time.
 * Run `predict_hand_sign.py` to start predicting handsigns.
 * When the Histogram screen pops up, cover the small green boxes with your palm completely and press `c`. Your palm should be white (in the foreground) and the background should be black.
 * Press `s` to save the histogram and stop recording.
 * Put your palm inside the green box and start 'signing'. The prediction will be shown on the screen.
+![Predicted Y](https://github.com/chatsagnik/Signed/blob/master/Predicted_Y.PNG)
+![Predicted C](https://github.com/chatsagnik/Signed/blob/master/Predicted_C.PNG)
+![Predicted F](https://github.com/chatsagnik/Signed/blob/master/Predicted_F.PNG)
