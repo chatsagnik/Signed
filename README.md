@@ -2,8 +2,8 @@
 Real Time Translation of Sign Language to English
 
 1. Setting Up the environment.
-  a. Set up an anaconda environment as `Python 3.5.6`.
-  b. Activate the said environment.
+  * Set up an anaconda environment as `Python 3.5.6`.
+  * Activate the said environment.
 
 2. Use command prompt or anaconda prompt to setup environment by using `install_packages.txt`.
 ```pip3 install_packages.txt``` 
