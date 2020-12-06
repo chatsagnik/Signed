@@ -1,5 +1,6 @@
 # Signed
 Real Time Translation of Sign Language to English.
+\\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\]
 
 ## Setting Up the environment.
 * Set up an anaconda environment as `Python 3.5.6`, and activate this environment.
